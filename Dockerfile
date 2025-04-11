@@ -8,6 +8,6 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-EXPOSE 6000
+EXPOSE 5001
 
-CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0", "--port", "6000"] 
+CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0", "--port", "5001"] 
